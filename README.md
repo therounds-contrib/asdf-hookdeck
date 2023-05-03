@@ -1,0 +1,61 @@
+<div align="center">
+
+# asdf-hookdeck [![Build](https://github.com/therounds-contrib/asdf-hookdeck/actions/workflows/build.yml/badge.svg)](https://github.com/therounds-contrib/asdf-hookdeck/actions/workflows/build.yml) [![Lint](https://github.com/therounds-contrib/asdf-hookdeck/actions/workflows/lint.yml/badge.svg)](https://github.com/therounds-contrib/asdf-hookdeck/actions/workflows/lint.yml)
+
+
+[hookdeck](https://hookdeck.com/cli) plugin for the [asdf version manager](https://asdf-vm.com).
+
+</div>
+
+# Contents
+
+- [Dependencies](#dependencies)
+- [Install](#install)
+- [Contributing](#contributing)
+- [License](#license)
+
+# Dependencies
+
+**TODO: adapt this section**
+
+- `bash`, `curl`, `tar`: generic POSIX utilities.
+- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+
+# Install
+
+Plugin:
+
+```shell
+asdf plugin add hookdeck
+# or
+asdf plugin add hookdeck https://github.com/therounds-contrib/asdf-hookdeck.git
+```
+
+hookdeck:
+
+```shell
+# Show all installable versions
+asdf list-all hookdeck
+
+# Install specific version
+asdf install hookdeck latest
+
+# Set a version globally (on your ~/.tool-versions file)
+asdf global hookdeck latest
+
+# Now hookdeck commands are available
+hookdeck version
+```
+
+Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
+install & manage versions.
+
+# Contributing
+
+Contributions of any kind welcome! See the [contributing guide](contributing.md).
+
+[Thanks goes to these contributors](https://github.com/therounds-contrib/asdf-hookdeck/graphs/contributors)!
+
+# License
+
+See [LICENSE](LICENSE) © [Boondoc Technologies Inc.](https://github.com/therounds-contrib/)
