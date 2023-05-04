@@ -16,10 +16,9 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
-- `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+This plugin depends on common POSIX utilities (`awk`, `head`, `grep`, `sed`,
+`tar`, etc.), Bash, curl, and Git. Ideally all stuff you had to have installed
+to get asdf working in the first place.
 
 # Install
 
@@ -58,4 +57,6 @@ Contributions of any kind welcome! See the [contributing guide](contributing.md)
 
 # License
 
-See [LICENSE](LICENSE) © [Boondoc Technologies Inc.](https://github.com/therounds-contrib/)
+See [LICENSE](LICENSE).
+
+Copyright © 2023 [Boondoc Technologies Inc.](https://therounds.com/)
